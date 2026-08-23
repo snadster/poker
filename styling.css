@@ -6,13 +6,13 @@ body
 @font-face 
 {
     font-family: showboat;
-    src: url(/Showboat.ttf);
+    src: url(Showboat.ttf);
 }
 
 @font-face 
 {
     font-family: carnival;
-    src: url(/Carnevalee\ Freakshow.ttf);
+    src: url(Carnevalee\ Freakshow.ttf);
 }
 
 
