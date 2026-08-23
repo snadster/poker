@@ -1,0 +1,173 @@
+body
+{
+    background-color: black;
+}
+
+@font-face 
+{
+    font-family: showboat;
+    src: url(/Showboat.ttf);
+}
+
+@font-face 
+{
+    font-family: carnival;
+    src: url(/Carnevalee\ Freakshow.ttf);
+}
+
+
+H1 
+{
+    font-family: showboat;
+    color: #470103;
+    text-shadow: 1px 1px 0px #bd9697;
+    padding: 20vw;
+}
+
+.listTitel
+{
+    font-family: showboat;
+    color: #dca340;
+    text-shadow: 3px 2px 0px #951c1c;
+    font-size: 400%;
+}
+
+.caseFront
+{
+    width: 100vw;
+}
+
+.case 
+{
+    width: 100%;
+}
+
+.title 
+{
+    color: #dca340;
+    font-family: carnival;
+    font-size: 5vw;
+    text-shadow: 2px 2px 0px #951c1c;
+}
+
+
+.blurb
+{
+    color: #dca340;
+    font-family:carnival;
+    font-size: 3vw;
+    text-shadow: 2px 2px 0px #951c1c;
+
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: 3px solid #0000003f;
+    background-color: #0000004b;
+}
+
+.centered 
+{
+  position: absolute;
+  top: 34%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.centeredTitle
+{
+  position: absolute;
+  top: 9%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.centeredDiv
+{
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.container 
+{
+  position: relative;
+  text-align: center;
+}
+
+.divider
+{
+    width: 60%;
+}
+
+.liste 
+{
+    /* border: 5px solid red; */
+    height: 25%;
+    width: 15%;
+    position: absolute;
+    top: 62%;
+    left: 75%;
+    rotate: -20deg;
+    transform: translate(-50%, -50%);
+}
+
+.regler 
+{
+    /* border: 5px solid rgb(102, 0, 255); */
+    height: 9%;
+    width: 20%;
+    position: absolute;
+    top: 62%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.dress
+{
+    /* border: 5px solid rgb(34, 255, 0); */
+    height: 25%;
+    width: 20%;
+    position: absolute;
+    top: 68%;
+    left: 23%;
+    rotate: 5deg;
+    transform: translate(-50%, -50%);
+}   
+
+.liste:hover, 
+.regler:hover,
+.dress:hover
+{
+    border-radius: 60px 60px 60px;
+    background-color: #951c1c45;
+}
+
+.chips
+{
+    width: 100vw;
+}
+
+.full
+{
+    width: 90vw;
+    rotate: -90deg;
+    padding-left: 10%;
+}
+
+.menu
+{
+    width: 100vw;
+}
+
+.caseFront:hover
+{
+    animation: jiggle 0.3s infinite;
+}
+
+@keyframes jiggle {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  20% { transform: translate(-2px, 2px) rotate(-1deg); }
+  40% { transform: translate(-2px, -2px) rotate(1deg); }
+  60% { transform: translate(2px, 2px) rotate(0deg); }
+  80% { transform: translate(2px, -2px) rotate(-1deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
